@@ -1,0 +1,369 @@
+priprabh@PRIPRABH-LAP MINGW64 /
+$ cd d:
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d
+$
+cd
+priprabh@PRIPRABH-LAP MINGW64 /d
+$ cd FMW\ LIFECYCLE\ -\ KT\ DATA/
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA
+$ cd ANGULAR/
+cd E
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR
+$ cd Exercises/
+cd
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises
+$ cd git-test/
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test
+$ git init
+Initialized empty Git repository in D:/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test/.git/
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git add .
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m "first commit"
+[master (root-commit) 491d371] first commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+491d371 (HEAD -> master) first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit 491d3713a71fefb512f52fdddefd6255e8544700 (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        templates/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git add .
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   templates/test.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m "second comit"
+[master e1c9cb6] second comit
+ 2 files changed, 13 insertions(+)
+ create mode 100644 templates/test.html
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+e1c9cb6 (HEAD -> master) second comit
+491d371 first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit e1c9cb68d881b370ed26ab8cc3f5a01dbec1f017 (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:39:35 2018 +0530
+
+    second comit
+
+commit 491d3713a71fefb512f52fdddefd6255e8544700
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit e1c9cb68d881b370ed26ab8cc3f5a01dbec1f017 (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:39:35 2018 +0530
+
+    second comit
+
+commit 491d3713a71fefb512f52fdddefd6255e8544700
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git add .
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m "third commit"
+[master 2415013] third commit
+ 1 file changed, 1 insertion(+)
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit 241501375b6ca8420c682cc5c2bc352ff8c8e1b2 (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:41:46 2018 +0530
+
+    third commit
+
+commit e1c9cb68d881b370ed26ab8cc3f5a01dbec1f017
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:39:35 2018 +0530
+
+    second comit
+
+commit 491d3713a71fefb512f52fdddefd6255e8544700
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+2415013 (HEAD -> master) third commit
+e1c9cb6 second comit
+491d371 first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git checkout e1c9cb6 index.html
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+2415013 (HEAD -> master) third commit
+e1c9cb6 second comit
+491d371 first commit
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git add .
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m "fourth commit"
+[master 145eb8a] fourth commit
+ 1 file changed, 1 deletion(-)
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+145eb8a (HEAD -> master) fourth commit
+2415013 third commit
+e1c9cb6 second comit
+491d371 first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit 145eb8af86c8e4d55e10b263b52a16cc509ad3d2 (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:47:24 2018 +0530
+
+    fourth commit
+
+commit 241501375b6ca8420c682cc5c2bc352ff8c8e1b2
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:41:46 2018 +0530
+
+    third commit
+
+commit e1c9cb68d881b370ed26ab8cc3f5a01dbec1f017
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:39:35 2018 +0530
+
+    second comit
+
+commit 491d3713a71fefb512f52fdddefd6255e8544700
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git checkout 2415013 index.html
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git reset HEAD index.html
+Unstaged changes after reset:
+M       index.html
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git add .
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m fifth commit
+error: pathspec 'commit' did not match any file(s) known to git.
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git commit -m "fifth commit"
+[master 0d1a179] fifth commit
+ 1 file changed, 1 insertion(+)
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log
+commit 0d1a179e0618cf88c411c0564fbe8a29a3469c4e (HEAD -> master)
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:50:32 2018 +0530
+
+    fifth commit
+
+commit 145eb8af86c8e4d55e10b263b52a16cc509ad3d2
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:47:24 2018 +0530
+
+    fourth commit
+
+commit 241501375b6ca8420c682cc5c2bc352ff8c8e1b2
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:41:46 2018 +0530
+
+    third commit
+
+commit e1c9cb68d881b370ed26ab8cc3f5a01dbec1f017
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:39:35 2018 +0530
+
+    second comit
+
+commit 491d3713a71fefb512f52fdddefd6255e8544700
+Author: priyanka_p_prabhu <priyanka.p.prabhu@oracle.com>
+Date:   Wed Aug 8 12:34:00 2018 +0530
+
+    first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ git log --oneline
+0d1a179 (HEAD -> master) fifth commit
+145eb8a fourth commit
+2415013 third commit
+e1c9cb6 second comit
+491d371 first commit
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$ ^C
+
+priprabh@PRIPRABH-LAP MINGW64 /d/FMW LIFECYCLE - KT DATA/ANGULAR/Exercises/git-test (master)
+$
