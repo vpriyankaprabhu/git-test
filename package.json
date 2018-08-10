@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vpriyankaprabhu/git-test/issues"
   },
-  "homepage": "https://github.com/vpriyankaprabhu/git-test#readme"
+  "homepage": "https://github.com/vpriyankaprabhu/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
 }
